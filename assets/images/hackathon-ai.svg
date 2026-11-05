@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hackathonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14233D"/>
+      <stop offset="50%" stop-color="#1B2D49"/>
+      <stop offset="100%" stop-color="#0E1A2D"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E6CC"/>
+      <stop offset="60%" stop-color="#D8B77C"/>
+      <stop offset="100%" stop-color="#B89456"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="340" rx="16" fill="url(#hackathonGrad)"/>
+
+  <!-- Glowing Neural Constellation Background -->
+  <g stroke="#397A80" stroke-width="1" stroke-opacity="0.35">
+    <line x1="80" y1="80" x2="160" y2="140"/>
+    <line x1="160" y1="140" x2="220" y2="90"/>
+    <line x1="160" y1="140" x2="200" y2="220"/>
+    <line x1="200" y1="220" x2="280" y2="240"/>
+    <line x1="220" y1="90" x2="310" y2="130"/>
+    <line x1="310" y1="130" x2="400" y2="80"/>
+    <line x1="310" y1="130" x2="380" y2="210"/>
+    <line x1="380" y1="210" x2="480" y2="180"/>
+    <line x1="400" y1="80" x2="520" y2="120"/>
+  </g>
+
+  <circle cx="80" cy="80" r="5" fill="#D8B77C"/>
+  <circle cx="160" cy="140" r="6" fill="#397A80"/>
+  <circle cx="220" cy="90" r="4" fill="#D7EEEE"/>
+  <circle cx="200" cy="220" r="5" fill="#397A80"/>
+  <circle cx="310" cy="130" r="7" fill="#D8B77C"/>
+  <circle cx="400" cy="80" r="4" fill="#397A80"/>
+  <circle cx="380" cy="210" r="6" fill="#D8B77C"/>
+  <circle cx="480" cy="180" r="5" fill="#397A80"/>
+  <circle cx="520" cy="120" r="6" fill="#D8B77C"/>
+
+  <!-- Vidyasagar University AI Hackathon Badge -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="130" height="28" rx="14" fill="#D8B77C" fill-opacity="0.2" stroke="#D8B77C" stroke-width="1.5"/>
+    <text x="65" y="18" fill="#F5E6CC" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">★ MARCH 2026</text>
+  </g>
+
+  <!-- Main Hackathon Title -->
+  <text x="60" y="130" fill="#FFFFFF" font-family="Poppins, sans-serif" font-size="28" font-weight="800">AI Hackathon</text>
+  <text x="60" y="160" fill="#D8B77C" font-family="Poppins, sans-serif" font-size="20" font-weight="600">Vidyasagar University</text>
+
+  <!-- Innovation Showcase -->
+  <text x="60" y="200" fill="#D7EEEE" font-family="Inter, sans-serif" font-size="13" max-width="450">
+    CropHeal AI: Agriculture Health Analysis with ResNet50
+  </text>
+
+  <!-- Badges / Chips -->
+  <g transform="translate(60, 230)">
+    <rect x="0" y="0" width="105" height="32" rx="16" fill="#397A80"/>
+    <text x="52" y="20" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Deep Learning</text>
+
+    <rect x="115" y="0" width="95" height="32" rx="16" fill="#1B4E53"/>
+    <text x="162" y="20" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="600" text-anchor="middle">ResNet-50</text>
+
+    <rect x="220" y="0" width="120" height="32" rx="16" fill="#D8B77C"/>
+    <text x="280" y="20" fill="#14233D" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle">AgriTech AI</text>
+  </g>
+
+  <!-- Decorative Award Trophy Graphic on right -->
+  <g transform="translate(460, 160)" filter="url(#softShadow)">
+    <circle cx="50" cy="50" r="45" fill="#397A80" fill-opacity="0.2" stroke="#D8B77C" stroke-width="2"/>
+    <path d="M35 35 H65 V50 C65 60 58 66 50 66 C42 66 35 60 35 50 Z" fill="url(#goldAccent)"/>
+    <path d="M30 40 H35 V48 H30 Z" fill="url(#goldAccent)"/>
+    <path d="M65 40 H70 V48 H65 Z" fill="url(#goldAccent)"/>
+    <rect x="47" y="66" width="6" height="12" fill="url(#goldAccent)"/>
+    <rect x="38" y="78" width="24" height="6" rx="2" fill="url(#goldAccent)"/>
+  </g>
+</svg>

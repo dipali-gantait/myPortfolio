@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="motoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14233D"/>
+      <stop offset="100%" stop-color="#1C304D"/>
+    </linearGradient>
+    <linearGradient id="motoButtonNum" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#283E5E"/>
+      <stop offset="100%" stop-color="#1E2F49"/>
+    </linearGradient>
+    <linearGradient id="motoTealBtn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4AA0A8"/>
+      <stop offset="100%" stop-color="#397A80"/>
+    </linearGradient>
+    <linearGradient id="motoGoldBtn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5CA95"/>
+      <stop offset="100%" stop-color="#D8B77C"/>
+    </linearGradient>
+    <filter id="btnShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#motoBg)"/>
+
+  <!-- Left: Device Body -->
+  <g transform="translate(60, 25)" filter="url(#btnShadow)">
+    <!-- Sleek Rounded Calculator Body -->
+    <rect x="0" y="0" width="220" height="330" rx="28" fill="#111B29" stroke="#397A80" stroke-width="2"/>
+    <!-- Circular Motorola-inspired top speaker / accent -->
+    <circle cx="110" cy="18" r="4" fill="#397A80"/>
+
+    <!-- Digital Display Screen -->
+    <rect x="18" y="32" width="184" height="68" rx="14" fill="#0C1420" stroke="#1F3450" stroke-width="1.5"/>
+    <text x="188" y="55" fill="#88A4C2" font-family="'Courier New', monospace" font-size="12" text-anchor="end">1,250 × 48 + 720</text>
+    <text x="188" y="85" fill="#62CBD5" font-family="Inter, sans-serif" font-weight="700" font-size="22" text-anchor="end">60,720</text>
+
+    <!-- Keypad Grid (Motorola Circular & Capsule tactile keys) -->
+    <!-- Row 1 -->
+    <circle cx="44" cy="126" r="16" fill="#2E4A6F"/>
+    <text x="44" y="131" fill="#D7EEEE" font-family="Inter, sans-serif" font-size="12" font-weight="600" text-anchor="middle">C</text>
+
+    <circle cx="88" cy="126" r="16" fill="#2E4A6F"/>
+    <text x="88" y="131" fill="#D7EEEE" font-family="Inter, sans-serif" font-size="12" font-weight="600" text-anchor="middle">±</text>
+
+    <circle cx="132" cy="126" r="16" fill="#2E4A6F"/>
+    <text x="132" y="131" fill="#D7EEEE" font-family="Inter, sans-serif" font-size="12" font-weight="600" text-anchor="middle">%</text>
+
+    <circle cx="176" cy="126" r="16" fill="url(#motoGoldBtn)"/>
+    <text x="176" y="131" fill="#14233D" font-family="Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">÷</text>
+
+    <!-- Row 2 -->
+    <circle cx="44" cy="168" r="16" fill="url(#motoButtonNum)"/>
+    <text x="44" y="173" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">7</text>
+
+    <circle cx="88" cy="168" r="16" fill="url(#motoButtonNum)"/>
+    <text x="88" y="173" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">8</text>
+
+    <circle cx="132" cy="168" r="16" fill="url(#motoButtonNum)"/>
+    <text x="132" y="173" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">9</text>
+
+    <circle cx="176" cy="168" r="16" fill="url(#motoGoldBtn)"/>
+    <text x="176" y="173" fill="#14233D" font-family="Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">×</text>
+
+    <!-- Row 3 -->
+    <circle cx="44" cy="210" r="16" fill="url(#motoButtonNum)"/>
+    <text x="44" y="215" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">4</text>
+
+    <circle cx="88" cy="210" r="16" fill="url(#motoButtonNum)"/>
+    <text x="88" y="215" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">5</text>
+
+    <circle cx="132" cy="210" r="16" fill="url(#motoButtonNum)"/>
+    <text x="132" y="215" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">6</text>
+
+    <circle cx="176" cy="210" r="16" fill="url(#motoGoldBtn)"/>
+    <text x="176" y="215" fill="#14233D" font-family="Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">−</text>
+
+    <!-- Row 4 -->
+    <circle cx="44" cy="252" r="16" fill="url(#motoButtonNum)"/>
+    <text x="44" y="257" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">1</text>
+
+    <circle cx="88" cy="252" r="16" fill="url(#motoButtonNum)"/>
+    <text x="88" y="257" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">2</text>
+
+    <circle cx="132" cy="252" r="16" fill="url(#motoButtonNum)"/>
+    <text x="132" y="257" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">3</text>
+
+    <circle cx="176" cy="252" r="16" fill="url(#motoGoldBtn)"/>
+    <text x="176" y="257" fill="#14233D" font-family="Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">+</text>
+
+    <!-- Row 5 -->
+    <rect x="28" y="278" width="76" height="32" rx="16" fill="url(#motoButtonNum)"/>
+    <text x="66" y="299" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="600" text-anchor="middle">0</text>
+
+    <circle cx="132" cy="294" r="16" fill="url(#motoButtonNum)"/>
+    <text x="132" y="299" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="600" text-anchor="middle">.</text>
+
+    <circle cx="176" cy="294" r="16" fill="url(#motoTealBtn)"/>
+    <text x="176" y="299" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="15" font-weight="700" text-anchor="middle">=</text>
+  </g>
+
+  <!-- Right: Architecture / Feature Details -->
+  <text x="320" y="80" fill="#FFFFFF" font-family="Poppins, sans-serif" font-size="20" font-weight="700">Motorola-Style Interface</text>
+  <text x="320" y="105" fill="#D8B77C" font-family="Inter, sans-serif" font-size="13" font-weight="500">Interactive Calculation &amp; Responsive UI</text>
+
+  <!-- Feature list cards -->
+  <g transform="translate(320, 130)">
+    <rect x="0" y="0" width="240" height="46" rx="10" fill="#111D2D" stroke="#397A80" stroke-width="1"/>
+    <circle cx="24" cy="23" r="10" fill="#397A80" fill-opacity="0.25"/>
+    <text x="24" y="27" fill="#62CBD5" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">⚡</text>
+    <text x="46" y="22" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="600">Immediate Operator Evaluation</text>
+    <text x="46" y="36" fill="#88A4C2" font-family="Inter, sans-serif" font-size="10">High precision floating point engine</text>
+  </g>
+
+  <g transform="translate(320, 190)">
+    <rect x="0" y="0" width="240" height="46" rx="10" fill="#111D2D" stroke="#397A80" stroke-width="1"/>
+    <circle cx="24" cy="23" r="10" fill="#D8B77C" fill-opacity="0.25"/>
+    <text x="24" y="27" fill="#D8B77C" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">⌨</text>
+    <text x="46" y="22" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="600">Keyboard Numpad Support</text>
+    <text x="46" y="36" fill="#88A4C2" font-family="Inter, sans-serif" font-size="10">Haptic feedback &amp; smooth click audio</text>
+  </g>
+
+  <g transform="translate(320, 250)">
+    <rect x="0" y="0" width="240" height="46" rx="10" fill="#111D2D" stroke="#397A80" stroke-width="1"/>
+    <circle cx="24" cy="23" r="10" fill="#397A80" fill-opacity="0.25"/>
+    <text x="24" y="27" fill="#62CBD5" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">📱</text>
+    <text x="46" y="22" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="600">Moto Touch Aesthetics</text>
+    <text x="46" y="36" fill="#88A4C2" font-family="Inter, sans-serif" font-size="10">HTML5 • CSS3 Modern Flexbox • Vanilla JS</text>
+  </g>
+</svg>

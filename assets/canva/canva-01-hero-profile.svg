@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@600;700;800&amp;display=swap');
+      .title-bold { font-family: 'Poppins', sans-serif; font-weight: 800; fill: #14233D; }
+      .heading-sec { font-family: 'Poppins', sans-serif; font-weight: 700; fill: #14233D; }
+      .subheading { font-family: 'Inter', sans-serif; font-weight: 600; fill: #397A80; }
+      .body-txt { font-family: 'Inter', sans-serif; font-weight: 400; fill: #222A33; }
+      .pill-txt { font-family: 'Inter', sans-serif; font-weight: 500; fill: #FFFFFF; }
+      .gold-txt { font-family: 'Inter', sans-serif; font-weight: 700; fill: #D8B77C; }
+    </style>
+    <linearGradient id="bgPastel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F8F8"/>
+      <stop offset="50%" stop-color="#EAF5F3"/>
+      <stop offset="100%" stop-color="#F3F8F8"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D8B77C" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#D7EEEE" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#F3F8F8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#14233D" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="800" fill="url(#bgPastel)"/>
+  <!-- Header -->
+  <g id="Header" transform="translate(100, 30)">
+    <rect width="1240" height="74" rx="20" fill="#FFFFFF" fill-opacity="0.9" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+    <g transform="translate(30, 18)">
+      <polygon points="19,4 30,11 19,17 8,11" fill="#397A80"/>
+      <polygon points="8,11 19,17 19,30 8,24" fill="#2E646A"/>
+      <polygon points="19,17 30,11 30,24 19,30" fill="#1B4E53"/>
+      <circle cx="19" cy="17" r="3" fill="#D8B77C"/>
+      <text x="44" y="26" class="title-bold" font-size="20">Dipali Gantait</text>
+    </g>
+    <g transform="translate(640, 44)">
+      <text x="0" y="0" class="subheading" font-size="15">About</text>
+      <line x1="0" y1="6" x2="44" y2="6" stroke="#397A80" stroke-width="2"/>
+      <text x="80" y="0" class="title-bold" font-size="15" fill-opacity="0.85">Experience</text>
+      <text x="200" y="0" class="title-bold" font-size="15" fill-opacity="0.85">Projects</text>
+      <text x="295" y="0" class="title-bold" font-size="15" fill-opacity="0.85">Skills</text>
+      <text x="365" y="0" class="title-bold" font-size="15" fill-opacity="0.85">Contact</text>
+    </g>
+    <g transform="translate(1070, 16)">
+      <rect width="145" height="42" rx="21" fill="#14233D"/>
+      <text x="72" y="26" class="pill-txt" font-size="13" font-weight="600" text-anchor="middle">Download Resume</text>
+    </g>
+  </g>
+
+  <!-- Hero Content -->
+  <g id="Hero" transform="translate(100, 190)">
+    <g transform="translate(0, 40)">
+      <text x="0" y="40" class="body-txt" font-size="24" font-weight="500" fill="#14233D">Hi, I'm</text>
+      <text x="0" y="115" class="title-bold" font-size="62">Dipali Gantait</text>
+      <text x="0" y="165" class="subheading" font-size="22">Full Stack Developer | Aspiring AI/ML Engineer</text>
+      <text x="0" y="215" class="body-txt" font-size="16">I build web applications and explore the power of AI/ML to solve real-world</text>
+      <text x="0" y="242" class="body-txt" font-size="16">problems. Currently a Web Developer at Gram Tarakki Foundation and a</text>
+      <text x="0" y="269" class="body-txt" font-size="16">B.Sc. Computer Science student.</text>
+
+      <g transform="translate(0, 320)">
+        <rect width="160" height="50" rx="25" fill="#14233D"/>
+        <text x="80" y="31" class="pill-txt" font-size="15" font-weight="600" text-anchor="middle">View Work</text>
+
+        <rect x="180" width="160" height="50" rx="25" fill="#D8B77C"/>
+        <text x="260" y="31" class="title-bold" font-size="15" text-anchor="middle">Contact Me</text>
+      </g>
+    </g>
+
+    <g transform="translate(740, 0)">
+      <circle cx="250" cy="250" r="250" fill="url(#goldGlow)"/>
+      <rect x="65" y="40" width="370" height="420" rx="36" fill="#14233D" filter="url(#shadow)"/>
+      <circle cx="250" cy="250" r="185" fill="none" stroke="#D8B77C" stroke-opacity="0.45" stroke-width="1.5"/>
+      <circle cx="120" cy="120" r="4.5" fill="#D8B77C"/>
+      <circle cx="370" cy="140" r="3.5" fill="#D8B77C"/>
+      <circle cx="100" cy="350" r="5" fill="#D8B77C"/>
+      <circle cx="360" cy="370" r="4" fill="#D8B77C"/>
+      <circle cx="435" cy="250" r="4" fill="#D8B77C"/>
+      <circle cx="250" cy="250" r="150" fill="#0E182A" stroke="#D8B77C" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

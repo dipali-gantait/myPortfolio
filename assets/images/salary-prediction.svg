@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradSalary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14233D"/>
+      <stop offset="100%" stop-color="#1B2D49"/>
+    </linearGradient>
+    <linearGradient id="barTeal" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#397A80"/>
+      <stop offset="100%" stop-color="#55B5BD"/>
+    </linearGradient>
+    <linearGradient id="barGold" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#B89456"/>
+      <stop offset="100%" stop-color="#D8B77C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="380" rx="16" fill="url(#bgGradSalary)"/>
+
+  <!-- Grid lines -->
+  <line x1="40" y1="80" x2="560" y2="80" stroke="#ffffff" stroke-opacity="0.08"/>
+  <line x1="40" y1="150" x2="560" y2="150" stroke="#ffffff" stroke-opacity="0.08"/>
+  <line x1="40" y1="220" x2="560" y2="220" stroke="#ffffff" stroke-opacity="0.08"/>
+  <line x1="40" y1="290" x2="560" y2="290" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- Left: Android Device Frame Mockup -->
+  <rect x="70" y="35" width="170" height="310" rx="24" fill="#0E1826" stroke="#397A80" stroke-width="2.5"/>
+  <!-- Phone screen -->
+  <rect x="80" y="55" width="150" height="270" rx="14" fill="#14233D"/>
+  <!-- Notch/Camera -->
+  <rect x="135" y="42" width="40" height="6" rx="3" fill="#397A80" fill-opacity="0.4"/>
+  <!-- App Header inside phone -->
+  <rect x="92" y="70" width="80" height="10" rx="3" fill="#D8B77C"/>
+  <rect x="92" y="86" width="126" height="6" rx="2" fill="#ffffff" fill-opacity="0.3"/>
+  <!-- Input sliders in phone -->
+  <rect x="92" y="105" width="126" height="26" rx="6" fill="#1C304E"/>
+  <circle cx="160" cy="118" r="6" fill="#397A80"/>
+  <line x1="102" y1="118" x2="208" y2="118" stroke="#397A80" stroke-width="2"/>
+
+  <!-- Prediction Result Badge in phone -->
+  <rect x="92" y="145" width="126" height="50" rx="8" fill="#397A80" fill-opacity="0.2" stroke="#397A80" stroke-width="1.5"/>
+  <text x="102" y="163" fill="#D8B77C" font-family="Inter, sans-serif" font-size="9" font-weight="600">PREDICTED SALARY</text>
+  <text x="102" y="184" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="700">$84,500 / yr</text>
+
+  <!-- Accuracy badge -->
+  <rect x="92" y="210" width="80" height="18" rx="9" fill="#1B4E53"/>
+  <text x="102" y="222" fill="#E6F5F2" font-family="Inter, sans-serif" font-size="8" font-weight="600">✓ 94.8% Accuracy</text>
+
+  <!-- Right: ML Neural & Feature Chart -->
+  <!-- Header info -->
+  <text x="280" y="68" fill="#FFFFFF" font-family="Poppins, sans-serif" font-size="18" font-weight="700">Salary Prediction Engine</text>
+  <text x="280" y="90" fill="#D8B77C" font-family="Inter, sans-serif" font-size="12" font-weight="500">Android Deployment • Supervised Regression</text>
+
+  <!-- Regression Curve & Data Points -->
+  <path d="M 280 250 Q 360 230 420 170 T 540 120" stroke="url(#barTeal)" stroke-width="3.5" fill="none"/>
+  <!-- Shaded area under curve -->
+  <path d="M 280 250 Q 360 230 420 170 T 540 120 L 540 280 L 280 280 Z" fill="#397A80" fill-opacity="0.12"/>
+
+  <!-- Feature Nodes -->
+  <circle cx="280" cy="250" r="5" fill="#D8B77C"/>
+  <circle cx="350" cy="225" r="5" fill="#FFFFFF"/>
+  <circle cx="420" cy="170" r="5" fill="#D8B77C"/>
+  <circle cx="480" cy="142" r="5" fill="#FFFFFF"/>
+  <circle cx="540" cy="120" r="5" fill="#397A80" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Bar Chart Overlay -->
+  <g transform="translate(280, 290)">
+    <rect x="0" y="-30" width="22" height="30" rx="3" fill="url(#barTeal)"/>
+    <rect x="35" y="-55" width="22" height="55" rx="3" fill="url(#barTeal)"/>
+    <rect x="70" y="-75" width="22" height="75" rx="3" fill="url(#barGold)"/>
+    <rect x="105" y="-95" width="22" height="95" rx="3" fill="url(#barTeal)"/>
+    <rect x="140" y="-120" width="22" height="120" rx="3" fill="url(#barGold)"/>
+    <rect x="175" y="-140" width="22" height="140" rx="3" fill="url(#barTeal)"/>
+    <line x1="0" y1="0" x2="250" y2="0" stroke="#ffffff" stroke-opacity="0.3"/>
+  </g>
+  <text x="280" y="325" fill="#D7EEEE" font-family="Inter, sans-serif" font-size="11">Experience vs Compensation Model (Scikit-Learn / Kotlin)</text>
+</svg>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 480" width="1440" height="480">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@600;700;800&amp;display=swap');
+      .title-bold { font-family: 'Poppins', sans-serif; font-weight: 800; fill: #14233D; }
+      .heading-sec { font-family: 'Poppins', sans-serif; font-weight: 700; fill: #14233D; }
+      .subheading { font-family: 'Inter', sans-serif; font-weight: 600; fill: #397A80; }
+      .body-txt { font-family: 'Inter', sans-serif; font-weight: 400; fill: #222A33; }
+      .pill-txt { font-family: 'Inter', sans-serif; font-weight: 500; fill: #FFFFFF; }
+      .gold-txt { font-family: 'Inter', sans-serif; font-weight: 700; fill: #D8B77C; }
+    </style>
+    <linearGradient id="bgPastel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F8F8"/>
+      <stop offset="50%" stop-color="#EAF5F3"/>
+      <stop offset="100%" stop-color="#F3F8F8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#14233D" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="480" fill="url(#bgPastel)"/>
+  <g id="Credentials" transform="translate(100, 50)">
+    <g transform="translate(0, 0)">
+      <rect width="600" height="260" rx="20" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+      <rect width="6" height="260" rx="3" fill="#397A80"/>
+      <circle cx="50" cy="50" r="22" fill="#E6F5F2"/>
+      <text x="50" y="56" font-size="18" text-anchor="middle">🎓</text>
+      <text x="85" y="42" class="subheading" font-size="12">ACADEMIC QUALIFICATION</text>
+      <text x="85" y="64" class="heading-sec" font-size="20">Education</text>
+      <text x="35" y="115" class="heading-sec" font-size="20">Bachelor of Science (B.Sc.) in Computer Science</text>
+      <text x="35" y="145" class="subheading" font-size="17">Palpara College</text>
+      <text x="35" y="172" class="body-txt" font-size="16">Vidyasagar University</text>
+      <rect x="35" y="195" width="120" height="32" rx="16" fill="#F5E6CC"/>
+      <text x="95" y="216" class="title-bold" font-size="13" text-anchor="middle">5th Semester</text>
+    </g>
+
+    <g transform="translate(640, 0)">
+      <rect width="600" height="260" rx="20" fill="#FFFFFF" stroke="#D8B77C" stroke-opacity="0.3" filter="url(#shadow)"/>
+      <rect width="6" height="260" rx="3" fill="#D8B77C"/>
+      <rect x="35" y="30" width="125" height="24" rx="12" fill="#F5E6CC"/>
+      <text x="97" y="46" class="title-bold" font-size="11" text-anchor="middle">★ MARCH 2026</text>
+      <text x="35" y="88" class="heading-sec" font-size="21">AI Hackathon – Vidyasagar University</text>
+      <text x="35" y="125" class="body-txt" font-size="14">Participated in an AI Hackathon at Vidyasagar University,</text>
+      <text x="35" y="148" class="body-txt" font-size="14">where I developed CropHeal AI, an agriculture-focused AI</text>
+      <text x="35" y="171" class="body-txt" font-size="14">project using the ResNet50 deep learning architecture.</text>
+      <rect x="35" y="195" width="280" height="32" rx="6" fill="#E6F5F2" stroke="#397A80" stroke-opacity="0.2"/>
+      <text x="175" y="216" class="subheading" font-size="12" font-weight="700" text-anchor="middle">CropHeal AI &bull; ResNet50 Deep Learning</text>
+    </g>
+  </g>
+</svg>

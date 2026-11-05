@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" width="1440" height="600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@600;700;800&amp;display=swap');
+      .title-bold { font-family: 'Poppins', sans-serif; font-weight: 800; fill: #14233D; }
+      .heading-sec { font-family: 'Poppins', sans-serif; font-weight: 700; fill: #14233D; }
+      .subheading { font-family: 'Inter', sans-serif; font-weight: 600; fill: #397A80; }
+      .body-txt { font-family: 'Inter', sans-serif; font-weight: 400; fill: #222A33; }
+      .pill-txt { font-family: 'Inter', sans-serif; font-weight: 500; fill: #FFFFFF; }
+      .gold-txt { font-family: 'Inter', sans-serif; font-weight: 700; fill: #D8B77C; }
+    </style>
+    <linearGradient id="bgPastel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F8F8"/>
+      <stop offset="50%" stop-color="#EAF5F3"/>
+      <stop offset="100%" stop-color="#F3F8F8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#14233D" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="600" fill="url(#bgPastel)"/>
+  <g id="Contact_and_Footer" transform="translate(100, 40)">
+    <text x="620" y="40" class="heading-sec" font-size="34" text-anchor="middle">Let's Connect</text>
+    <rect x="598" y="52" width="44" height="3" rx="1.5" fill="#397A80"/>
+
+    <g transform="translate(190, 90)">
+      <rect width="860" height="270" rx="24" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+      <line x1="0" y1="0" x2="860" y2="0" stroke="#397A80" stroke-width="4"/>
+      <text x="430" y="50" class="body-txt" font-size="16" text-anchor="middle">I'm always interested in exploring new technologies, collaborating on</text>
+      <text x="430" y="75" class="body-txt" font-size="16" text-anchor="middle">meaningful projects, and connecting with people who share a passion for innovation.</text>
+      <g transform="translate(50, 120)">
+        <rect width="240" height="46" rx="12" fill="#F3F8F8" stroke="#397A80" stroke-opacity="0.2"/>
+        <text x="120" y="28" class="title-bold" font-size="12" text-anchor="middle">bultigayen332@gmail.com</text>
+        <rect x="260" width="240" height="46" rx="12" fill="#F3F8F8" stroke="#397A80" stroke-opacity="0.2"/>
+        <text x="380" y="28" class="title-bold" font-size="12" text-anchor="middle">github.com/dipali-gantait</text>
+        <rect x="520" width="240" height="46" rx="12" fill="#F3F8F8" stroke="#397A80" stroke-opacity="0.2"/>
+        <text x="640" y="28" class="title-bold" font-size="12" text-anchor="middle">in/dipali-gantait-linkdin</text>
+      </g>
+      <rect x="350" y="195" width="160" height="44" rx="22" fill="#14233D"/>
+      <text x="430" y="222" class="pill-txt" font-size="14" font-weight="600" text-anchor="middle">Send Message</text>
+    </g>
+
+    <!-- Footer Line -->
+    <g transform="translate(0, 480)">
+      <line x1="-100" y1="0" x2="1340" y2="0" stroke="#397A80" stroke-opacity="0.15"/>
+      <text x="0" y="45" class="body-txt" font-size="15" fill="#5A6A7E">&copy; 2026 Dipali Gantait. All Rights Reserved.</text>
+    </g>
+  </g>
+</svg>

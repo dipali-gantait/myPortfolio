@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 680" width="1440" height="680">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@600;700;800&amp;display=swap');
+      .title-bold { font-family: 'Poppins', sans-serif; font-weight: 800; fill: #14233D; }
+      .heading-sec { font-family: 'Poppins', sans-serif; font-weight: 700; fill: #14233D; }
+      .subheading { font-family: 'Inter', sans-serif; font-weight: 600; fill: #397A80; }
+      .body-txt { font-family: 'Inter', sans-serif; font-weight: 400; fill: #222A33; }
+      .pill-txt { font-family: 'Inter', sans-serif; font-weight: 500; fill: #FFFFFF; }
+    </style>
+    <linearGradient id="bgPastel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F8F8"/>
+      <stop offset="50%" stop-color="#EAF5F3"/>
+      <stop offset="100%" stop-color="#F3F8F8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#14233D" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="680" fill="url(#bgPastel)"/>
+
+  <g id="Skills_Section" transform="translate(120, 50)">
+    <text x="600" y="40" class="heading-sec" font-size="34" text-anchor="middle">Technical Skills</text>
+    <rect x="578" y="52" width="44" height="3" rx="1.5" fill="#397A80"/>
+
+    <!-- Row 1: Languages, Frontend, Backend -->
+    <g transform="translate(0, 110)">
+      <!-- Languages -->
+      <g transform="translate(0, 0)">
+        <rect width="380" height="150" rx="18" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+        <text x="24" y="40" class="heading-sec" font-size="19">Languages</text>
+        <g transform="translate(24, 70)">
+          <rect width="45" height="34" rx="17" fill="#397A80"/><text x="22" y="22" class="pill-txt" font-size="12" text-anchor="middle">C</text>
+          <rect x="55" width="55" height="34" rx="17" fill="#397A80"/><text x="82" y="22" class="pill-txt" font-size="12" text-anchor="middle">C++</text>
+          <rect x="120" width="55" height="34" rx="17" fill="#397A80"/><text x="147" y="22" class="pill-txt" font-size="12" text-anchor="middle">Java</text>
+          <rect x="185" width="70" height="34" rx="17" fill="#397A80"/><text x="220" y="22" class="pill-txt" font-size="12" text-anchor="middle">Python</text>
+        </g>
+      </g>
+
+      <!-- Frontend -->
+      <g transform="translate(410, 0)">
+        <rect width="380" height="150" rx="18" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+        <text x="24" y="40" class="heading-sec" font-size="19">Frontend</text>
+        <g transform="translate(24, 70)">
+          <rect width="65" height="34" rx="17" fill="#397A80"/><text x="32" y="22" class="pill-txt" font-size="12" text-anchor="middle">HTML</text>
+          <rect x="75" width="55" height="34" rx="17" fill="#397A80"/><text x="102" y="22" class="pill-txt" font-size="12" text-anchor="middle">CSS</text>
+          <rect x="140" width="95" height="34" rx="17" fill="#397A80"/><text x="187" y="22" class="pill-txt" font-size="12" text-anchor="middle">JavaScript</text>
+        </g>
+      </g>
+
+      <!-- Backend -->
+      <g transform="translate(820, 0)">
+        <rect width="380" height="150" rx="18" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+        <text x="24" y="40" class="heading-sec" font-size="19">Backend</text>
+        <g transform="translate(24, 70)">
+          <rect width="55" height="34" rx="17" fill="#397A80"/><text x="27" y="22" class="pill-txt" font-size="12" text-anchor="middle">PHP</text>
+          <rect x="65" width="60" height="34" rx="17" fill="#397A80"/><text x="95" y="22" class="pill-txt" font-size="12" text-anchor="middle">Flask</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Row 2: Databases (1 col) & AI/ML (2 cols) -->
+    <g transform="translate(0, 290)">
+      <!-- Databases -->
+      <g transform="translate(0, 0)">
+        <rect width="380" height="150" rx="18" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+        <text x="24" y="40" class="heading-sec" font-size="19">Databases</text>
+        <g transform="translate(24, 70)">
+          <rect width="70" height="34" rx="17" fill="#397A80"/><text x="35" y="22" class="pill-txt" font-size="12" text-anchor="middle">MySQL</text>
+          <rect x="80" width="95" height="34" rx="17" fill="#397A80"/><text x="127" y="22" class="pill-txt" font-size="12" text-anchor="middle">PostgreSQL</text>
+          <rect x="185" width="85" height="34" rx="17" fill="#397A80"/><text x="227" y="22" class="pill-txt" font-size="12" text-anchor="middle">Supabase</text>
+        </g>
+      </g>
+
+      <!-- AI / ML (Spans 2 columns) -->
+      <g transform="translate(410, 0)">
+        <rect width="790" height="150" rx="18" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+        <text x="24" y="40" class="heading-sec" font-size="19">AI / ML</text>
+        <g transform="translate(24, 70)">
+          <rect width="165" height="34" rx="17" fill="#397A80"/><text x="82" y="22" class="pill-txt" font-size="13" text-anchor="middle">Machine Learning</text>
+          <rect x="180" width="140" height="34" rx="17" fill="#397A80"/><text x="250" y="22" class="pill-txt" font-size="13" text-anchor="middle">Deep Learning</text>
+          <rect x="335" width="115" height="34" rx="17" fill="#397A80"/><text x="392" y="22" class="pill-txt" font-size="13" text-anchor="middle">ResNet50</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

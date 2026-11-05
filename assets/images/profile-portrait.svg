@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2D49"/>
+      <stop offset="60%" stop-color="#14233D"/>
+      <stop offset="100%" stop-color="#0E182A"/>
+    </linearGradient>
+    <radialGradient id="faceGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FCE7D0"/>
+      <stop offset="70%" stop-color="#E5BE9B"/>
+      <stop offset="100%" stop-color="#CA9C74"/>
+    </radialGradient>
+    <radialGradient id="hairGlow" cx="45%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#2D211A"/>
+      <stop offset="80%" stop-color="#15100D"/>
+      <stop offset="100%" stop-color="#090605"/>
+    </radialGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#243B5A"/>
+      <stop offset="100%" stop-color="#121D2C"/>
+    </linearGradient>
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E6CC"/>
+      <stop offset="50%" stop-color="#D8B77C"/>
+      <stop offset="100%" stop-color="#9C773E"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Base -->
+  <circle cx="300" cy="300" r="290" fill="url(#bgGlow)"/>
+
+  <!-- Subtle Studio Backdrop Light -->
+  <ellipse cx="300" cy="220" rx="200" ry="200" fill="#397A80" fill-opacity="0.18"/>
+  <ellipse cx="250" cy="200" rx="140" ry="140" fill="#D8B77C" fill-opacity="0.12"/>
+
+  <!-- Hair Behind Shoulders -->
+  <path d="M170 230 Q140 340 180 430 Q220 460 260 470 L340 470 Q380 460 420 430 Q460 340 430 230 Z" fill="url(#hairGlow)"/>
+
+  <!-- Neck & Collar Bones -->
+  <path d="M265 290 L265 375 Q300 395 335 375 L335 290 Z" fill="#D3A781"/>
+  <!-- Shadow under chin -->
+  <ellipse cx="300" cy="305" rx="36" ry="12" fill="#9E6E49" fill-opacity="0.4"/>
+
+  <!-- Suit / Professional Attire -->
+  <g filter="url(#softShadow)">
+    <path d="M140 540 Q160 410 230 380 L275 460 L300 480 L325 460 L370 380 Q440 410 460 540 Z" fill="url(#suitGrad)"/>
+    <!-- Crisp Inner Shirt -->
+    <polygon points="265,370 335,370 315,445 285,445" fill="#F8FAFC"/>
+    <!-- Lapels -->
+    <path d="M230 380 L285 460 L260 465 L215 400 Z" fill="#2E4A6F"/>
+    <path d="M370 380 L315 460 L340 465 L385 400 Z" fill="#1C2E46"/>
+  </g>
+
+  <!-- Head / Face -->
+  <path d="M225 210 Q220 310 300 325 Q380 310 375 210 Q370 140 300 140 Q230 140 225 210 Z" fill="url(#faceGlow)"/>
+
+  <!-- Eyes, Eyebrows & Glasses (Smart Developer Look) -->
+  <!-- Eyebrows -->
+  <path d="M245 198 Q265 190 282 196" stroke="#2D1D13" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M318 196 Q335 190 355 198" stroke="#2D1D13" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <ellipse cx="265" cy="210" rx="9" ry="6" fill="#FFFFFF"/>
+  <circle cx="266" cy="210" r="4.5" fill="#24160E"/>
+  <circle cx="264" cy="208" r="1.5" fill="#FFFFFF"/>
+
+  <ellipse cx="335" cy="210" rx="9" ry="6" fill="#FFFFFF"/>
+  <circle cx="334" cy="210" r="4.5" fill="#24160E"/>
+  <circle cx="332" cy="208" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Nose -->
+  <path d="M298 212 Q294 242 290 248 Q296 252 304 250" stroke="#B37E55" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Friendly Professional Smile -->
+  <path d="M278 274 Q300 292 322 274" stroke="#9A3C43" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M280 274 Q300 286 320 274 Q300 278 280 274 Z" fill="#FFFFFF"/>
+
+  <!-- Hair Styling (Wavy Front & Parting) -->
+  <path d="M220 215 Q210 120 300 115 Q390 120 380 215 Q395 270 385 340 Q365 240 360 210 Q340 160 295 160 Q240 165 235 220 Q225 270 215 340 Q205 260 220 215 Z" fill="url(#hairGlow)"/>
+  <path d="M275 125 Q325 145 365 200" stroke="#4A3728" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- Gold Earring Accents -->
+  <circle cx="225" cy="245" r="4" fill="url(#goldRim)"/>
+  <circle cx="375" cy="245" r="4" fill="url(#goldRim)"/>
+
+  <!-- Champagne Gold Rim Border -->
+  <circle cx="300" cy="300" r="286" stroke="url(#goldRim)" stroke-width="6" fill="none"/>
+</svg>

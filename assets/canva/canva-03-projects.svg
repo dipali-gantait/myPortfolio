@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" width="1440" height="920">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@600;700;800&amp;display=swap');
+      .title-bold { font-family: 'Poppins', sans-serif; font-weight: 800; fill: #14233D; }
+      .heading-sec { font-family: 'Poppins', sans-serif; font-weight: 700; fill: #14233D; }
+      .subheading { font-family: 'Inter', sans-serif; font-weight: 600; fill: #397A80; }
+      .body-txt { font-family: 'Inter', sans-serif; font-weight: 400; fill: #222A33; }
+      .pill-txt { font-family: 'Inter', sans-serif; font-weight: 500; fill: #FFFFFF; }
+      .gold-txt { font-family: 'Inter', sans-serif; font-weight: 700; fill: #D8B77C; }
+    </style>
+    <linearGradient id="bgPastel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F8F8"/>
+      <stop offset="50%" stop-color="#EAF5F3"/>
+      <stop offset="100%" stop-color="#F3F8F8"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#14233D" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="920" fill="url(#bgPastel)"/>
+  <g id="Projects" transform="translate(100, 50)">
+    <text x="620" y="40" class="heading-sec" font-size="34" text-anchor="middle">Projects</text>
+    <rect x="598" y="52" width="44" height="3" rx="1.5" fill="#397A80"/>
+
+    <!-- Row 1: 3 Cards -->
+    <g transform="translate(0, 100)">
+      <rect width="386" height="420" rx="20" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+      <rect width="386" height="200" rx="20" fill="#14233D"/>
+      <text x="193" y="110" class="pill-txt" font-size="20" font-weight="700" text-anchor="middle">🌾 CropHeal AI</text>
+      <text x="24" y="240" class="heading-sec" font-size="21">CropHeal AI</text>
+      <text x="24" y="270" class="body-txt" font-size="14">An AI-based agricultural project using</text>
+      <text x="24" y="292" class="body-txt" font-size="14">ResNet50 for crop health analysis.</text>
+      <g transform="translate(24, 350)">
+        <rect width="65" height="26" rx="6" fill="#F5E6CC"/><text x="32" y="18" class="title-bold" font-size="11" text-anchor="middle">Python</text>
+        <rect x="75" width="105" height="26" rx="6" fill="#F5E6CC"/><text x="127" y="18" class="title-bold" font-size="11" text-anchor="middle">Deep Learning</text>
+        <rect x="190" width="75" height="26" rx="6" fill="#F5E6CC"/><text x="227" y="18" class="title-bold" font-size="11" text-anchor="middle">ResNet50</text>
+      </g>
+    </g>
+
+    <g transform="translate(426, 100)">
+      <rect width="386" height="420" rx="20" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+      <rect width="386" height="200" rx="20" fill="#1B2D49"/>
+      <text x="193" y="110" class="pill-txt" font-size="20" font-weight="700" text-anchor="middle">🐾 PetCix Academy</text>
+      <text x="24" y="240" class="heading-sec" font-size="21">PetCix Academy</text>
+      <text x="24" y="270" class="body-txt" font-size="14">A career-focused pet care education platform.</text>
+      <g transform="translate(24, 350)">
+        <rect width="50" height="26" rx="6" fill="#F5E6CC"/><text x="25" y="18" class="title-bold" font-size="11" text-anchor="middle">Flask</text>
+        <rect x="60" width="60" height="26" rx="6" fill="#F5E6CC"/><text x="90" y="18" class="title-bold" font-size="11" text-anchor="middle">MySQL</text>
+        <rect x="130" width="75" height="26" rx="6" fill="#F5E6CC"/><text x="167" y="18" class="title-bold" font-size="11" text-anchor="middle">Supabase</text>
+        <rect x="215" width="55" height="26" rx="6" fill="#F5E6CC"/><text x="242" y="18" class="title-bold" font-size="11" text-anchor="middle">HTML</text>
+        <rect x="280" width="45" height="26" rx="6" fill="#F5E6CC"/><text x="302" y="18" class="title-bold" font-size="11" text-anchor="middle">CSS</text>
+      </g>
+    </g>
+
+    <g transform="translate(852, 100)">
+      <rect width="386" height="420" rx="20" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+      <rect width="386" height="200" rx="20" fill="#0E182A"/>
+      <text x="193" y="110" class="pill-txt" font-size="20" font-weight="700" text-anchor="middle">📊 Salary Prediction</text>
+      <text x="24" y="240" class="heading-sec" font-size="21">Salary Prediction Model</text>
+      <text x="24" y="270" class="body-txt" font-size="14">An ML model predicting salaries, deployed as</text>
+      <text x="24" y="292" class="body-txt" font-size="14">an Android application.</text>
+      <g transform="translate(24, 350)">
+        <rect width="65" height="26" rx="6" fill="#F5E6CC"/><text x="32" y="18" class="title-bold" font-size="11" text-anchor="middle">Python</text>
+        <rect x="75" width="130" height="26" rx="6" fill="#F5E6CC"/><text x="140" y="18" class="title-bold" font-size="11" text-anchor="middle">Machine Learning</text>
+        <rect x="215" width="65" height="26" rx="6" fill="#F5E6CC"/><text x="247" y="18" class="title-bold" font-size="11" text-anchor="middle">Android</text>
+      </g>
+    </g>
+
+    <!-- Row 2: Motorola Calculator -->
+    <g transform="translate(190, 560)">
+      <rect width="860" height="210" rx="20" fill="#FFFFFF" stroke="#397A80" stroke-opacity="0.15" filter="url(#shadow)"/>
+      <rect width="380" height="210" rx="20" fill="#14233D"/>
+      <text x="190" y="115" class="pill-txt" font-size="20" font-weight="700" text-anchor="middle">🔢 Motorola Calculator</text>
+      <g transform="translate(420, 35)">
+        <text x="0" y="30" class="heading-sec" font-size="22">Motorola-Style Calculator</text>
+        <text x="0" y="65" class="body-txt" font-size="15">A calculator application featuring a clean interface and</text>
+        <text x="0" y="88" class="body-txt" font-size="15">interactive calculation functionality.</text>
+        <g transform="translate(0, 115)">
+          <rect width="60" height="26" rx="6" fill="#F5E6CC"/><text x="30" y="18" class="title-bold" font-size="11" text-anchor="middle">HTML</text>
+          <rect x="70" width="55" height="26" rx="6" fill="#F5E6CC"/><text x="97" y="18" class="title-bold" font-size="11" text-anchor="middle">CSS</text>
+          <rect x="135" width="85" height="26" rx="6" fill="#F5E6CC"/><text x="177" y="18" class="title-bold" font-size="11" text-anchor="middle">JavaScript</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
